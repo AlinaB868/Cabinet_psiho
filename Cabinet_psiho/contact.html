@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' https:; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:;"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Contact - Cabinet Psihologic Elena Andrei</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="antet">
+        <div class="titlu">
+          <h1 class="title animate__animated animate__fadeInRight">Contact</h1>
+        </div>
+        <div class="navigatie">
+          <nav class="navigation">
+            <a href="index.html">Acasă</a>
+            <a href="despre_noi.html">Povestea mea</a>
+            <a href="servicii.html">Servicii</a>
+            <a href="doneaza.html">Implică-te</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section id="programare">
+          <h2>Solicită o programare</h2>
+          <p>
+            Completează formularul pentru a solicita o programare la cabinetul
+            nostru:
+          </p>
+          <form action="#" method="POST">
+            <div class="form-row">
+              <label for="nume">Nume:</label>
+              <input type="text" id="nume" name="nume" required />
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-row">
+              <label for="telefon">Telefon:</label>
+              <input type="tel" id="telefon" name="telefon" required />
+            </div>
+
+            <div class="form-row">
+              <label for="data">Data dorită pentru programare:</label>
+              <input type="date" id="data" name="data" required />
+            </div>
+
+            <div class="form-row">
+              <label for="mesaj">Mesaj / Observații:</label>
+              <textarea
+                id="mesaj"
+                name="mesaj"
+                rows="4"
+                placeholder="Scurtă descriere a motivului cererii"
+              ></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="submit">
+              Trimite programarea
+            </button>
+          </form>
+
+          <p>
+            Ne poți contacta direct la
+            <strong><a href="tel:0730183282">0730 183 282</a></strong> sau prin
+            WhatsApp:
+            <a
+              href="https://wa.me/40730183282"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Chat WhatsApp</a
+            >.
+          </p>
+        </section>
+
+        <section id="informatii-contact" class="contact-section">
+          <h2>Contact</h2>
+          <p>
+            Psihoterapia te poate ajuta să descoperi soluții și perspective noi
+            pentru viața ta. Pentru prima ședință sau întrebări, ne poți
+            contacta la:
+            <a href="mailto:elena.andrei@deschidemlumea.ro"
+              >elena.andrei@deschidemlumea.ro</a
+            >
+            sau <a href="tel:0730183282">0730 183 282</a>.
+          </p>
+
+          <p>
+            <strong>Adresă:</strong> Imparatul Traian nr 9, bl B9, sc 2, ap 71,
+            Sector 4, București
+          </p>
+
+          <p>
+            Vezi harta:
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Imparatul+Traian+9+Sector+4+Bucuresti"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Deschide în Google Maps</a
+            >
+          </p>
+        </section>
+      </main>
+
+      <div id="cookie-banner" class="cookie-banner">
+        <p>
+          Acest site folosește cookie-uri pentru o experiență mai bună. Prin
+          continuarea navigării, ești de acord cu utilizarea cookie-urilor.
+        </p>
+        <div class="cookie-actions">
+          <button id="accept-cookies">Accept</button>
+          <a href="termeni.html">Detalii / Termeni</a>
+        </div>
+      </div>
+
+      <script src="scripts.js"></script>
+
+      <footer>
+        <p>
+          Contact: <a href="tel:0730183282">0730 183 282</a> |
+          <a href="mailto:elena.andrei@deschidemlumea.ro"
+            >elena.andrei@deschidemlumea.ro</a
+          >
+          | Imparatul Traian 9, Sector 4 |
+          <a href="termeni.html">Termeni &amp; Confidențialitate</a>
+        </p>
+        <p>
+          &copy; 2026 Cabinet psihologic Elena Andrei. Toate drepturile
+          rezervate.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
